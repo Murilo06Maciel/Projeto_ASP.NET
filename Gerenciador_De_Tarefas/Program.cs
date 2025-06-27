@@ -47,6 +47,16 @@ app.MapPut("/api/tarefas/{id}/concluir", async (TarefasContext db, int id) =>
     return Results.Ok(tarefa);
 });
 
+// Endpoint para reabrir tarefa
+app.MapPut("/api/tarefas/{id}/reabrir", async (TarefasContext db, int id) =>
+{
+    var tarefa = await db.Tarefas.FindAsync(id);
+    if (tarefa is null) return Results.NotFound();
+    tarefa.Concluida = false;
+    await db.SaveChangesAsync();
+    return Results.Ok(tarefa);
+});
+
 // Endpoint para editar tarefa
 app.MapPut("/api/tarefas/{id}", async (TarefasContext db, int id, Tarefa tarefaEditada) =>
 {

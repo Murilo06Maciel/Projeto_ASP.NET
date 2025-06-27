@@ -21,7 +21,11 @@ document.addEventListener('DOMContentLoaded', function () {
             : '<span class="badge bg-danger">Pendente</span>'}
     </td>
     <td>
-        <button class="btn btn-success btn-sm" ${tarefa.concluida ? 'disabled' : ''} data-concluir="${tarefa.id}">Concluir</button>
+        ${
+            tarefa.concluida
+            ? `<button class="btn btn-danger btn-sm" data-reabrir="${tarefa.id}">Ficar em aberto</button>`
+            : `<button class="btn btn-success btn-sm" data-concluir="${tarefa.id}">Concluir</button>`
+        }
         <button class="btn btn-warning btn-sm" data-editar="${tarefa.id}">Editar</button>
         <button class="btn btn-danger btn-sm" data-excluir="${tarefa.id}">Excluir</button>
     </td>
@@ -65,10 +69,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
     tabela.addEventListener('click', function (e) {
         const btnConcluir = e.target.closest('button[data-concluir]');
+        const btnReabrir = e.target.closest('button[data-reabrir]');
         const btnExcluir = e.target.closest('button[data-excluir]');
         const btnEditar = e.target.closest('button[data-editar]');
         if (btnConcluir) {
             fetch(`/api/tarefas/${btnConcluir.dataset.concluir}/concluir`, { method: 'PUT' })
+                .then(carregarTarefas);
+        }
+        if (btnReabrir) {
+            console.log('Botão Ficar em aberto clicado!', btnReabrir.dataset.reabrir);
+            fetch(`/api/tarefas/${btnReabrir.dataset.reabrir}/reabrir`, { method: 'PUT' })
                 .then(carregarTarefas);
         }
         if (btnExcluir) {
