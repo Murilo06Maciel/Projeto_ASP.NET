@@ -1,11 +1,77 @@
 {
   "Version": 1,
-  "Hash": "6HMU/CznJANULRoiIrPFAoWymSmfCYprVzaIwEXLSDw=",
+  "Hash": "wBEDGFFsINkfS2xr0OQi+uwS7vR+VE3OlUFBSbFdWtY=",
   "Source": "Gerenciador_De_Tarefas",
   "BasePath": "_content/Gerenciador_De_Tarefas",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Gerenciador_De_Tarefas\\wwwroot",
+      "Source": "Gerenciador_De_Tarefas",
+      "ContentRoot": "D:\\Murilo github SENAI\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\",
+      "BasePath": "_content/Gerenciador_De_Tarefas",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Murilo github SENAI\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\css\\style.css",
+      "SourceId": "Gerenciador_De_Tarefas",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Murilo github SENAI\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\",
+      "BasePath": "_content/Gerenciador_De_Tarefas",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "D:\\Murilo github SENAI\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\index.html",
+      "SourceId": "Gerenciador_De_Tarefas",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Murilo github SENAI\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\",
+      "BasePath": "_content/Gerenciador_De_Tarefas",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\Murilo github SENAI\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\js\\script.js",
+      "SourceId": "Gerenciador_De_Tarefas",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Murilo github SENAI\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\",
+      "BasePath": "_content/Gerenciador_De_Tarefas",
+      "RelativePath": "js/script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\script.js"
+    }
+  ]
 }
