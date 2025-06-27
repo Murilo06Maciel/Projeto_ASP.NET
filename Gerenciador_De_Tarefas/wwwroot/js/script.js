@@ -35,14 +35,29 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 
+    let tarefaParaExcluir = null;
+    const modal = new bootstrap.Modal(document.getElementById('modalConfirmarExclusao'));
+    const btnConfirmarExclusao = document.getElementById('btnConfirmarExclusao');
+
     tabela.addEventListener('click', function (e) {
         if (e.target.dataset.concluir) {
             fetch(`/api/tarefas/${e.target.dataset.concluir}/concluir`, { method: 'PUT' })
                 .then(carregarTarefas);
         }
         if (e.target.dataset.excluir) {
-            fetch(`/api/tarefas/${e.target.dataset.excluir}`, { method: 'DELETE' })
-                .then(carregarTarefas);
+            tarefaParaExcluir = e.target.dataset.excluir;
+            modal.show();
+        }
+    });
+
+    btnConfirmarExclusao.addEventListener('click', function () {
+        if (tarefaParaExcluir) {
+            fetch(`/api/tarefas/${tarefaParaExcluir}`, { method: 'DELETE' })
+                .then(() => {
+                    modal.hide();
+                    carregarTarefas();
+                });
+            tarefaParaExcluir = null;
         }
     });
 
