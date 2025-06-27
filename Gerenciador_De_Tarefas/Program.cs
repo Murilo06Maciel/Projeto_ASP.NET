@@ -47,6 +47,16 @@ app.MapPut("/api/tarefas/{id}/concluir", async (TarefasContext db, int id) =>
     return Results.Ok(tarefa);
 });
 
+// Endpoint para editar tarefa
+app.MapPut("/api/tarefas/{id}", async (TarefasContext db, int id, Tarefa tarefaEditada) =>
+{
+    var tarefa = await db.Tarefas.FindAsync(id);
+    if (tarefa is null) return Results.NotFound();
+    tarefa.Descricao = tarefaEditada.Descricao;
+    await db.SaveChangesAsync();
+    return Results.Ok(tarefa);
+});
+
 // Endpoint para remover tarefa
 app.MapDelete("/api/tarefas/{id}", async (TarefasContext db, int id) =>
 {
