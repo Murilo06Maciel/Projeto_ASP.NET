@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Murilo github SENAI\\Gerenciador_De_Tarefas\\Gerenciador_De_Tarefas.csproj": {}
+    "D:\\Murilo github SENAI\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\Gerenciador_De_Tarefas.csproj": {}
   },
   "projects": {
-    "D:\\Murilo github SENAI\\Gerenciador_De_Tarefas\\Gerenciador_De_Tarefas.csproj": {
+    "D:\\Murilo github SENAI\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\Gerenciador_De_Tarefas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Murilo github SENAI\\Gerenciador_De_Tarefas\\Gerenciador_De_Tarefas.csproj",
+        "projectUniqueName": "D:\\Murilo github SENAI\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\Gerenciador_De_Tarefas.csproj",
         "projectName": "Gerenciador_De_Tarefas",
-        "projectPath": "D:\\Murilo github SENAI\\Gerenciador_De_Tarefas\\Gerenciador_De_Tarefas.csproj",
+        "projectPath": "D:\\Murilo github SENAI\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\Gerenciador_De_Tarefas.csproj",
         "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-        "outputPath": "D:\\Murilo github SENAI\\Gerenciador_De_Tarefas\\obj\\",
+        "outputPath": "D:\\Murilo github SENAI\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"

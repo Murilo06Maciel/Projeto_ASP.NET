@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W3vh9bGgNlk=",
+  "dgSpecHash": "9vGUEbOx3f4=",
   "success": true,
-  "projectFilePath": "D:\\Murilo github SENAI\\Gerenciador_De_Tarefas\\Gerenciador_De_Tarefas.csproj",
+  "projectFilePath": "D:\\Murilo github SENAI\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\Gerenciador_De_Tarefas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
