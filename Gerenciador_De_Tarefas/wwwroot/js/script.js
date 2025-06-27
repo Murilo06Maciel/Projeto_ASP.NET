@@ -40,12 +40,15 @@ document.addEventListener('DOMContentLoaded', function () {
     const btnConfirmarExclusao = document.getElementById('btnConfirmarExclusao');
 
     tabela.addEventListener('click', function (e) {
-        if (e.target.dataset.concluir) {
-            fetch(`/api/tarefas/${e.target.dataset.concluir}/concluir`, { method: 'PUT' })
+        // Use closest para garantir que clicou no botão
+        const btnConcluir = e.target.closest('button[data-concluir]');
+        const btnExcluir = e.target.closest('button[data-excluir]');
+        if (btnConcluir) {
+            fetch(`/api/tarefas/${btnConcluir.dataset.concluir}/concluir`, { method: 'PUT' })
                 .then(carregarTarefas);
         }
-        if (e.target.dataset.excluir) {
-            tarefaParaExcluir = e.target.dataset.excluir;
+        if (btnExcluir) {
+            tarefaParaExcluir = btnExcluir.dataset.excluir;
             modal.show();
         }
     });
