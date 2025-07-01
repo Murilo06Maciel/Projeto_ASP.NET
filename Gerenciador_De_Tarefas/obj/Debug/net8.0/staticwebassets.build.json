@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wBEDGFFsINkfS2xr0OQi+uwS7vR+VE3OlUFBSbFdWtY=",
+  "Hash": "zMaeSmc00JfH45xuEqRhxdBUFCX/4B+vV/SgBkuPDHQ=",
   "Source": "Gerenciador_De_Tarefas",
   "BasePath": "_content/Gerenciador_De_Tarefas",
   "Mode": "Default",
@@ -10,68 +10,322 @@
     {
       "Name": "Gerenciador_De_Tarefas\\wwwroot",
       "Source": "Gerenciador_De_Tarefas",
-      "ContentRoot": "D:\\Murilo github SENAI\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\",
       "BasePath": "_content/Gerenciador_De_Tarefas",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Murilo github SENAI\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\css\\style.css",
+      "Identity": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\css\\style.css",
       "SourceId": "Gerenciador_De_Tarefas",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Murilo github SENAI\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\",
       "BasePath": "_content/Gerenciador_De_Tarefas",
-      "RelativePath": "css/style.css",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "m2bpg3kbh4",
+      "Integrity": "TgCHEzDBWLIDJXIZZ4yhrzMY4L/AOdaIz9H0WIwl0FE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "D:\\Murilo github SENAI\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\index.html",
       "SourceId": "Gerenciador_De_Tarefas",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Murilo github SENAI\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\",
       "BasePath": "_content/Gerenciador_De_Tarefas",
-      "RelativePath": "index.html",
+      "RelativePath": "index#[.{fingerprint}]?.html",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "ssqjysuknl",
+      "Integrity": "lL8E96XMHoC5IvOIjku3iw6VSZ8meoFl76PJhsXS8rs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "D:\\Murilo github SENAI\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\js\\script.js",
+      "Identity": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\js\\script.js",
       "SourceId": "Gerenciador_De_Tarefas",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Murilo github SENAI\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\",
       "BasePath": "_content/Gerenciador_De_Tarefas",
-      "RelativePath": "js/script.js",
+      "RelativePath": "js/script#[.{fingerprint}]?.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeBehavior": "",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "Fingerprint": "3a6mbkvrvu",
+      "Integrity": "tcuWpAWzd/eU42eAOxxKqe+jIzLKjCHs7sDc3aVuzmA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\script.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TgCHEzDBWLIDJXIZZ4yhrzMY4L/AOdaIz9H0WIwl0FE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Jul 2025 16:06:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-TgCHEzDBWLIDJXIZZ4yhrzMY4L/AOdaIz9H0WIwl0FE="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.m2bpg3kbh4.css",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3286"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"TgCHEzDBWLIDJXIZZ4yhrzMY4L/AOdaIz9H0WIwl0FE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Jul 2025 16:06:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "m2bpg3kbh4"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-TgCHEzDBWLIDJXIZZ4yhrzMY4L/AOdaIz9H0WIwl0FE="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2899"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lL8E96XMHoC5IvOIjku3iw6VSZ8meoFl76PJhsXS8rs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Jul 2025 16:06:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lL8E96XMHoC5IvOIjku3iw6VSZ8meoFl76PJhsXS8rs="
+        }
+      ]
+    },
+    {
+      "Route": "index.ssqjysuknl.html",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2899"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lL8E96XMHoC5IvOIjku3iw6VSZ8meoFl76PJhsXS8rs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Jul 2025 16:06:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ssqjysuknl"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lL8E96XMHoC5IvOIjku3iw6VSZ8meoFl76PJhsXS8rs="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.3a6mbkvrvu.js",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\js\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4865"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tcuWpAWzd/eU42eAOxxKqe+jIzLKjCHs7sDc3aVuzmA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Jul 2025 16:06:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3a6mbkvrvu"
+        },
+        {
+          "Name": "label",
+          "Value": "js/script.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tcuWpAWzd/eU42eAOxxKqe+jIzLKjCHs7sDc3aVuzmA="
+        }
+      ]
+    },
+    {
+      "Route": "js/script.js",
+      "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\js\\script.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4865"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tcuWpAWzd/eU42eAOxxKqe+jIzLKjCHs7sDc3aVuzmA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Jul 2025 16:06:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tcuWpAWzd/eU42eAOxxKqe+jIzLKjCHs7sDc3aVuzmA="
+        }
+      ]
     }
   ]
 }

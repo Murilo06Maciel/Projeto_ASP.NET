@@ -8,6 +8,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
+using Gerenciador_De_Tarefas.Data;
+
 namespace Gerenciador_De_Tarefas.Migrations
 {
     [DbContext(typeof(TarefasContext))]

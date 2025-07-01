@@ -1,16 +1,20 @@
 {
   "Files": [
     {
-      "Id": "D:\\Murilo github SENAI\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\css\\style.css",
+      "Id": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "D:\\Murilo github SENAI\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\index.html",
+      "Id": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "D:\\Murilo github SENAI\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\js\\script.js",
+      "Id": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\js\\script.js",
       "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Gerenciador_De_Tarefas.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Gerenciador_De_Tarefas.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -1,6 +1,8 @@
-﻿using System;
+﻿
+using System;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
+using Gerenciador_De_Tarefas.Data;
 
 #nullable disable
 
@@ -40,4 +42,6 @@ namespace Gerenciador_De_Tarefas.Migrations
                 name: "Tarefas");
         }
     }
+
+    // Removido: classes duplicadas de TarefasContext e Tarefa
 }

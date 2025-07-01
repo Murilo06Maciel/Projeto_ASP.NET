@@ -92,6 +92,8 @@ document.addEventListener('DOMContentLoaded', function () {
             descricaoInput.value = tr.children[1].innerText.replace('Concluída', '').trim();
             form.querySelector('button[type="submit"]').textContent = 'Atualizar';
             btnCancelarEdicao.style.display = '';
+            // Altera o texto do label para modo edição
+            document.querySelector('label[for="descricao"]').textContent = 'Edite a descrição da tarefa';
             descricaoInput.focus();
         }
     });
@@ -112,6 +114,8 @@ document.addEventListener('DOMContentLoaded', function () {
         descricaoInput.value = '';
         form.querySelector('button[type="submit"]').textContent = 'Salvar';
         btnCancelarEdicao.style.display = 'none';
+        // Volta o texto do label para o padrão
+        document.querySelector('label[for="descricao"]').textContent = 'Adicione a descrição da tarefa';
     });
 
     carregarTarefas();
