@@ -51,16 +51,21 @@ Gerenciador_De_Tarefas/
   GerenciadorTarefas.sql
 ```
 
-**Principais responsabilidades:**
-- `Program.cs`: Inicialização, configuração de serviços, middlewares e rotas.
-- `Data/`: DbContext do Entity Framework Core.
-- `Models/`: Classes de domínio (ex: Tarefa).
-- `Controllers/`: Lógica dos endpoints HTTP (REST ou MVC).
-- `Views/`: Páginas Razor (MVC) para exibição de dados (opcional, caso use Razor além do SPA).
-- `Migrations/`: Scripts de versionamento do banco de dados.
-- `wwwroot/`: Arquivos estáticos (HTML, JS, CSS, imagens).
-- `appsettings.json`: Configurações gerais e de conexão.
-- `GerenciadorTarefas.sql`: Script SQL para criação manual do banco.
+
+**Principais responsabilidades de cada parte do projeto:**
+
+- `Program.cs`: Ponto de entrada da aplicação. Responsável por configurar os serviços (como o DbContext), middlewares, logging, endpoints REST, controllers e inicialização automática do banco de dados via migrations.
+- `Data/TarefasContext.cs`: Define o DbContext do Entity Framework Core, que gerencia a conexão e o mapeamento entre as classes do projeto e as tabelas do banco de dados MySQL.
+- `Models/Tarefa.cs`: Define a estrutura da entidade Tarefa, com propriedades como Id, Descricao, Concluida e DataCriacao. Serve como base para o mapeamento do banco e para a transferência de dados entre backend e frontend.
+- `Controllers/TarefasController.cs`: Implementa toda a lógica dos endpoints HTTP da API RESTful, permitindo listar, adicionar, editar, concluir, reabrir e excluir tarefas. Utiliza o padrão Controller do ASP.NET Core.
+- `Views/Tarefas/`: (Opcional) Caso utilize Razor Pages/MVC, aqui ficam as views para exibição e edição de tarefas (ex: Index.cshtml, Edit.cshtml). Se usar apenas SPA, pode não ser necessário.
+- `Migrations/`: Contém os scripts de versionamento do banco de dados gerados automaticamente pelo EF Core, garantindo que o banco esteja sempre sincronizado com o código.
+- `wwwroot/`: Pasta de arquivos estáticos. Inclui:
+  - `index.html`: Interface web principal (SPA).
+  - `js/script.js`: Lógica de interação do frontend, requisições AJAX, manipulação de DOM e integração com a API.
+  - `css/style.css`: Estilos personalizados para a interface.
+- `appsettings.json` e `appsettings.Development.json`: Arquivos de configuração da aplicação, incluindo string de conexão com o banco, níveis de log e outros parâmetros.
+- `GerenciadorTarefas.sql`: Script SQL para criação manual do banco de dados e da tabela de tarefas, útil para inicialização rápida ou testes.
 
 ### Fluxo geral
 
