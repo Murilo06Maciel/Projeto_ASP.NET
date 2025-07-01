@@ -2305,19 +2305,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
+    "C:\\Users\\Alunos\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Murilo github SENAI\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\Gerenciador_De_Tarefas.csproj",
+      "projectUniqueName": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\Gerenciador_De_Tarefas.csproj",
       "projectName": "Gerenciador_De_Tarefas",
-      "projectPath": "D:\\Murilo github SENAI\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\Gerenciador_De_Tarefas.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "D:\\Murilo github SENAI\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\obj\\",
+      "projectPath": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\Gerenciador_De_Tarefas.csproj",
+      "packagesPath": "C:\\Users\\Alunos\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Alunos\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -2340,7 +2340,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -2382,7 +2383,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.107/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
