@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gerenciador_De_Tarefas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69c024b3d900344f514a3aa80d81aff142eb1336")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c380e115f0e9306a857f7b2d5d6cf8c1450d0908")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gerenciador_De_Tarefas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gerenciador_De_Tarefas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
