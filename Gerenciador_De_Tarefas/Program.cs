@@ -1,8 +1,6 @@
 
 using Microsoft.EntityFrameworkCore;
-using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 using Gerenciador_De_Tarefas.Data;
-using Gerenciador_De_Tarefas.Models;
 
 
 var builder = WebApplication.CreateBuilder(args);
