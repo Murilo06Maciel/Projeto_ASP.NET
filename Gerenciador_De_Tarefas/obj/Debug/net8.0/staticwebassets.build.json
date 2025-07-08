@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "zMaeSmc00JfH45xuEqRhxdBUFCX/4B+vV/SgBkuPDHQ=",
+  "Hash": "tgOspvaCxAwxxLVp5Tc5dC68gBs1w1/x5hejWiZrCaU=",
   "Source": "Gerenciador_De_Tarefas",
   "BasePath": "_content/Gerenciador_De_Tarefas",
   "Mode": "Default",
@@ -73,8 +73,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3a6mbkvrvu",
-      "Integrity": "tcuWpAWzd/eU42eAOxxKqe+jIzLKjCHs7sDc3aVuzmA=",
+      "Fingerprint": "bc8rwy2nod",
+      "Integrity": "BdWM2LxE6bKl1j6ad0lgWMqIfDXIoE0Q3Zw8bBd83bg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\script.js"
@@ -104,7 +104,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 16:06:04 GMT"
+          "Value": "Tue, 08 Jul 2025 16:22:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -141,7 +141,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 16:06:04 GMT"
+          "Value": "Tue, 08 Jul 2025 16:22:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -186,7 +186,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 16:06:04 GMT"
+          "Value": "Tue, 08 Jul 2025 16:22:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -223,7 +223,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 16:06:04 GMT"
+          "Value": "Tue, 08 Jul 2025 16:22:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -246,7 +246,7 @@
       ]
     },
     {
-      "Route": "js/script.3a6mbkvrvu.js",
+      "Route": "js/script.bc8rwy2nod.js",
       "AssetFile": "C:\\Users\\Alunos\\Documents\\Murilo Maciel\\Projeto_ASP.NET\\Gerenciador_De_Tarefas\\wwwroot\\js\\script.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -256,7 +256,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4865"
+          "Value": "5191"
         },
         {
           "Name": "Content-Type",
@@ -264,11 +264,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tcuWpAWzd/eU42eAOxxKqe+jIzLKjCHs7sDc3aVuzmA=\""
+          "Value": "\"BdWM2LxE6bKl1j6ad0lgWMqIfDXIoE0Q3Zw8bBd83bg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 16:06:04 GMT"
+          "Value": "Tue, 08 Jul 2025 16:22:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -278,7 +278,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3a6mbkvrvu"
+          "Value": "bc8rwy2nod"
         },
         {
           "Name": "label",
@@ -286,7 +286,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-tcuWpAWzd/eU42eAOxxKqe+jIzLKjCHs7sDc3aVuzmA="
+          "Value": "sha256-BdWM2LxE6bKl1j6ad0lgWMqIfDXIoE0Q3Zw8bBd83bg="
         }
       ]
     },
@@ -301,7 +301,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4865"
+          "Value": "5191"
         },
         {
           "Name": "Content-Type",
@@ -309,11 +309,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"tcuWpAWzd/eU42eAOxxKqe+jIzLKjCHs7sDc3aVuzmA=\""
+          "Value": "\"BdWM2LxE6bKl1j6ad0lgWMqIfDXIoE0Q3Zw8bBd83bg=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 01 Jul 2025 16:06:04 GMT"
+          "Value": "Tue, 08 Jul 2025 16:22:23 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -323,7 +323,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-tcuWpAWzd/eU42eAOxxKqe+jIzLKjCHs7sDc3aVuzmA="
+          "Value": "sha256-BdWM2LxE6bKl1j6ad0lgWMqIfDXIoE0Q3Zw8bBd83bg="
         }
       ]
     }

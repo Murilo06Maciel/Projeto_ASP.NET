@@ -123,7 +123,7 @@ Gerenciador_De_Tarefas/
 2. **Restaurar dependências e rodar:**
    ```sh
    dotnet restore
-   dotnet run
+   dotnet run --project Gerenciador_De_Tarefas/Gerenciador_De_Tarefas.csproj
    ```
 
 3. **Acesse no navegador:**
