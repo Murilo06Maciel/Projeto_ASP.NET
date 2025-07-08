@@ -1,4 +1,3 @@
-
 using Microsoft.EntityFrameworkCore;
 using Gerenciador_De_Tarefas.Data;
 
@@ -35,5 +34,3 @@ app.MapGet("/sobre", async context =>
 });
 
 app.Run();
-
-// (nenhuma alteração necessária aqui, apenas garanta que o nome do banco está igual ao da connection string e do script SQL)
